@@ -364,9 +364,24 @@ header.a {
         left: 0;
     }
 
-    .split-container-text {
+/*     .split-container-text {
         font-size: 20px;
+    } */
+    
+    .split-container-text{
+
+        font-size: 15px;
+        width: 100%;
     }
+
+
+    .split-container-slideshow {
+        float: none;
+        display: none;
+        width: 0px;
+
+    }
+
 }
 
 /*-----end-mobile-version-----*/
