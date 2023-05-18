@@ -1,16 +1,4 @@
 
-/* Body styles */
-
-/* Container styles */
-.container {
-  max-width: 100%;
-  margin: 0 auto;
-  display: grid;
-  align-items: center;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 20px;
-}
-
 .ti {
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
