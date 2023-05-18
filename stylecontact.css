@@ -1,4 +1,4 @@
-.contact{
+.contactform{
     width: 500px;
     background-color:  #cc7722;
     box-shadow: 0 0 20px 0 #999;
@@ -7,7 +7,7 @@
     transform: translate(-50%, -50%);
     position: relative;
 } 
-.contact form p
+.contactform form p
 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
