@@ -123,6 +123,12 @@ header.a {
     text-align: center;
 }
 
+.content-article {
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+}
+
 .logo-img {
     position: relative;
     text-align: center;
