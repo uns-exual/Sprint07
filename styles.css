@@ -364,3 +364,51 @@ header.a {
 }
 
 /*-----end-mobile-version-----*/
+
+/* Footer */
+
+footer {
+    padding: 25px;
+    background: #cc7722;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .contact,
+  .social {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  footer .social h3 {
+    text-align: centre;
+  }
+  footer .social {
+    flex-grow: 2;
+  }
+  footer .social i {
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    margin: 0 8px;
+    text-align: center;
+  }
+  footer .social a {
+   color: white;
+  }
+  
+  footer div h3 {
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+  }
+
+/* End Footer */
