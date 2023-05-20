@@ -1,0 +1,41 @@
+.contact-form {
+    width: 500px;
+    background-color: #cc7722;
+    box-shadow: 0 0 20px 0 #999;
+    margin: 0px auto 60px;
+    padding: 35px;
+}
+
+.contact-form form p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+form {
+    margin-top: 35px;
+}
+
+.input-field {
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding: 0 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+
+.textarea-field {
+    height: 150px;
+    padding-top: 10px;
+}
+
+.btn {
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
