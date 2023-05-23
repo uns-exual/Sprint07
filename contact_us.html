@@ -57,14 +57,14 @@
     </header>
     <div class='content'>
         <div class="contact-form">
-            <form>
-                <p style="color: white;">Contact Us</p>
-                <input type="text" class="input-field" name="name" placeholder="Enter your name">
-                <input type="email" class="input-field" name="Email" placeholder="Enter your email">
-                <input type="text" class="input-field" name="name" placeholder="Type your Subject">
-                <textarea class="input-field textarea-field" name="text" placeholder="Enter your Message"></textarea>
-                <button type="button" class="btn"> Send Message </button>
-            </form>
+            <form action="" name="myform" onsubmit="return validateForm(event)" method="post" id="contact">
+            <p style="color: white;">Contact Us</p>
+            <input type="text" class="input-field" name="name" placeholder="Enter your name">
+            <input type="email" class="input-field" name="email" placeholder="Enter your email">
+            <input type="text" class="input-field" name="subject" placeholder="Type your Subject">
+            <textarea class="input-field textarea-field" name="text" placeholder="Enter your Message"></textarea>
+            <button type="submit" class="btn"> Send Message </button>
+        </form>
         </div>
     </div>
     <footer>
@@ -84,6 +84,7 @@
         </div>
     </footer>
     <script src="scripts.js"></script>
+    <script type="text/javascript" src="formvalidation.js"></script>
 </body>
 
 </html>
