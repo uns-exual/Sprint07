@@ -140,35 +140,40 @@ header.a {
 #homepage-intro {
     color: #fff;
     padding: 5%;
-    opacity: 0; /* Set initial opacity to 0 */
-    transition: opacity 3s; /* Set transition effect to 1 second */
+    opacity: 0;
+    /* Set initial opacity to 0 */
+    transition: opacity 3s;
+    /* Set transition effect to 1 second */
 
-  }
-  
-  #slideshow-image {
+}
+
+#slideshow-image {
     width: auto;
     max-height: 300px;
     padding-top: 5%;
     transition-duration: 1s;
-  }
-  .content {
+}
+
+.content {
     padding-top: 325px;
     margin-right: 10%;
     margin-left: 10%;
-    text-align: center;  
+    text-align: center;
 }
+
 .column-right {
     padding-top: 325px;
     float: right;
     width: 50%;
-    height: 550px; 
-  }
-  .column-left {
+    height: 550px;
+}
+
+.column-left {
     padding-top: 325px;
     float: left;
     width: 50%;
-    height: 550px; 
-  }
+    height: 550px;
+}
 
 /* End Homepage Content - Danny */
 
@@ -212,7 +217,7 @@ header.a {
 .about-card {
     display: inline-block;
     width: 400px;
-    height: 350px;
+    height: 600px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -286,12 +291,11 @@ header.a {
     text-align: center;
 }
 
-/* Split container - Danny */
 .split-container-slideshow {
     float: left;
     width: 55%;
     height: auto;
-    
+
 }
 
 .split-container-text p {
@@ -299,7 +303,6 @@ header.a {
     color: #ffffff;
     display: flex;
 }
-
 /*----end-split-container----*/
 
 /*-----desktop-version-----*/
@@ -364,24 +367,19 @@ header.a {
         left: 0;
     }
 
-/*     .split-container-text {
-        font-size: 20px;
-    } */
+    .split-container-text {
     
-    .split-container-text{
-
         font-size: 15px;
         width: 100%;
     }
-
-
+    
+    
     .split-container-slideshow {
         float: none;
         display: none;
         width: 0px;
-
+    
     }
-
 }
 
 /*-----end-mobile-version-----*/
@@ -389,31 +387,33 @@ header.a {
 /* Footer */
 
 footer {
-    padding: 5px;
+    padding: 25px;
     background: #cc7722;
     color: white;
     display: flex;
     flex-wrap: wrap;
-  }
-  
-  .contact,
-  .social {
+}
+
+.contact,
+.social {
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     flex-wrap: wrap;
     text-align: center;
-  }
-  
-  footer .social h3 {
+}
+
+footer .social h3 {
     text-align: centre;
-  }
-  footer .social {
+}
+
+footer .social {
     flex-grow: 2;
-  }
-  footer .social i {
+}
+
+footer .social i {
     font-size: 25px;
     width: 40px;
     height: 40px;
@@ -421,15 +421,16 @@ footer {
     display: inline-block;
     margin: 0 8px;
     text-align: center;
-  }
-  footer .social a {
-   color: white;
-  }
-  
-  footer div h3 {
+}
+
+footer .social a {
+    color: white;
+}
+
+footer div h3 {
     font-weight: 300;
     margin-bottom: 30px;
     letter-spacing: 1px;
-  }
+}
 
 /* End Footer */
