@@ -11,6 +11,23 @@ document.querySelectorAll(".nav-link").forEach(n => n.
         hamburger.classList.remove("active");
     }))
 
+window.addEventListener("scroll", function () {
+    var navbar = document.querySelector(".navbar");
+    var content = document.querySelector('.content');
+    var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+    var offset = 220; // Adjust this value to your desired offset
+
+
+    if (scrollPosition > offset) {
+        navbar.classList.add("navbar-fixed");
+        content.style.marginTop = navbar.offsetHeight + 'px';
+    } else {
+        navbar.classList.remove("navbar-fixed");
+        content.style.marginTop = '0px';
+
+    }
+});
+
 // Homepage functions - Danny
 
 var images = ["images/Skater04.jpg", "images/Skater05.jpg", "images/how_to_join.jpg"];
@@ -21,20 +38,21 @@ function slideshow() {
     slideshowImage.style.opacity = 0; // Set opacity to 0 to start the fade out animation
     currentIndex++;
     if (currentIndex >= images.length) {
-      currentIndex = 0;
+        currentIndex = 0;
     }
-    setTimeout(function() {
-      slideshowImage.src = images[currentIndex]; // Change the image source
-      slideshowImage.style.opacity = 1; // Set opacity to 1 to start the fade in animation
+    setTimeout(function () {
+        slideshowImage.src = images[currentIndex]; // Change the image source
+        slideshowImage.style.opacity = 1; // Set opacity to 1 to start the fade in animation
     }, 1000); // Wait 1 second before changing the image and starting the fade in animation
-  }
-  
-  slideshow(); // Start the slideshow
-  setInterval(slideshow, 5000); // Change the image every 5 seconds
+}
 
-  window.addEventListener('load', function() {
-      var fadingText = document.getElementById('homepage-intro');
-      fadingText.style.opacity = 1; // Set opacity to 1 to start the fade in animation
-    });
+slideshow(); // Start the slideshow
+setInterval(slideshow, 5000); // Change the image every 5 seconds
+
+window.addEventListener('load', function () {
+    var fadingText = document.getElementById('homepage-intro');
+    fadingText.style.opacity = 1; // Set opacity to 1 to start the fade in animation
+});
 
 // End Homepage Functions
+
